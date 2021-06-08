@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\FooController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -21,4 +22,7 @@ Route::get('/dashboard', function () {
     return view('dashboard');
 })->middleware(['auth'])->name('dashboard');
 
+Route::resource('/foos', FooController::class)->middleware(['auth']);
+
 require __DIR__.'/auth.php';
+

@@ -5,7 +5,7 @@ Step 1
 Step 2
 - register with whatever email  you want
 - try to click in dashboard on TEST
-- you will see a 403 error page
+- you will see an empty 
 - go back and logout
 
 Step 3
@@ -15,5 +15,5 @@ Username: bart0040@hz.nl <br>
 Password: 1!Qwert1234
 
 - try to click in dashboard on TEST
-- you will see a page with the following message: Welcome only users with permission can come here
+- you will see a page with the following message: Welcome only users with permission can see this
 
